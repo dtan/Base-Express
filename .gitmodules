@@ -1,0 +1,3 @@
+[submodule "stylus/css/libs/html5-reset"]
+	path = stylus/css/libs/html5-reset
+	url = git@github.com:dtan/html5-reset-stylus.git
