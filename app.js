@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var PORT = 3001,
+var PORT = process.env.PORT || 3001,
   express = require('express'),
   stylus = require('stylus'),
   nib = require('nib'),
@@ -48,5 +48,5 @@ app.configure(function(){
 
 app.get('/', routes.index);
 
-app.listen(3001);
+app.listen(PORT);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
