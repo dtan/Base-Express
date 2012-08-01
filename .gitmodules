@@ -1,6 +1,6 @@
 [submodule "stylus/css/libs/html5-reset"]
 	path = stylus/css/libs/html5-reset
-	url = git@github.com:dtan/html5-reset-stylus.git
+	url = git://github.com/dtan/html5-reset-stylus.git
 [submodule "stylus/css/libs/stacklayout"]
 	path = stylus/css/libs/stacklayout
-	url = git@github.com:dtan/stacklayout-stylus.git
+	url = git://github.com/dtan/stacklayout-stylus.git
