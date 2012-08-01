@@ -1,2 +1,6 @@
-h1= title
-p Welcome to #{title}
+if (data.nav)
+	nav
+		ul
+			each val, key in data.nav
+				li
+					a(class=data.nav[key]["class"], href=data.nav[key].href)!= data.nav[key].title
